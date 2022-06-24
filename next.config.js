@@ -6,5 +6,8 @@ module.exports = {
    * Replace `nextjs-github-pages` with your Github repo project name.
    */
   assetPrefix: isProd ? "/nextjs-github-pages/" : "",
-  images: { loader: "custom" },
+  images: { 
+    loader: "custom", 
+    path: "/"
+  },
 };
