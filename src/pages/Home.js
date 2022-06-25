@@ -5,7 +5,7 @@ import "./Home.css";
 import { Carousel, Card } from 'antd';
 import NewCard from './../card/card';
 // import Carousel1 from "../images/carousel1.png";
-import Carousel2 from "../images/carousel2.png";
+// import Carousel2 from "../images/carousel2.png";
 import Comics from "../images/comics.png";
 import ArtemisFowl from "../images/ArtemisFowl.png";
 import MobyDick from "../images/MobyDick.png";
@@ -14,7 +14,7 @@ import Dictionaries from "../images/dictionaries.png";
 import Fantasy from "../images/fantasy.png";
 import Horror from "../images/horror.png";
 
-const carousel = [Carousel2];
+// const carousel = [Carousel2];
 const catCard = [Adventure, Fantasy,Horror,Dictionaries];
 const Home = () => {
 
