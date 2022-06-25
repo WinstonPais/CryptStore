@@ -41,11 +41,11 @@
 
 .cards {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   flex-wrap: wrap;
   position: absolute;
   left: 0;
-  top: 450px;
+  top: 100px;
   padding-left: 20px;
   padding-right: 20px;
   width: 100vw;
