@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './card.module.css'
+import { Link } from 'react-router-dom';
 
 const card = (props) => {
   return (
@@ -10,7 +11,9 @@ const card = (props) => {
           </div>
           <div className={classes.contentBx}>
               <h2>{props.name}</h2>
-              <a href={props.linkTo}>View Product</a>
+              <Link to={props.linkTo} state="Comics" className="categories">
+              View Product
+              </Link>
           </div>
       </div>
   </div>
