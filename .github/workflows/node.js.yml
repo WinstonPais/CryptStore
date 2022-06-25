@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
+      - run: CI=false
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -31,6 +31,8 @@ jobs:
 
       - name: Run the tests and generate coverage report
         run: npm test -- --coverage
+        env:
+          CI: false
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
@@ -39,6 +41,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          CI: false
 
       - name: Deploy
         if: ${{ github.ref == 'refs/heads/master' }}
@@ -50,3 +54,4 @@ jobs:
         env:
           github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
           repository: ${{ github.repository }}
+
