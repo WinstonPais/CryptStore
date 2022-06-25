@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+![CI/CD](https://github.com/winstonpais/CryptStore/workflows/React%20CI/CD/badge.svg)
+[![codecov](https://codecov.io/gh/winstonpais/CryptStore/branch/master/graph/badge.svg)](https://codecov.io/gh/winstonpais/CryptStore)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
