@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/CryptStore/static/css/main.073c9b0a.css",
-    "main.js": "/CryptStore/static/js/main.c70e88b8.js",
+    "main.css": "/CryptStore/static/css/main.15611575.css",
+    "main.js": "/CryptStore/static/js/main.b172f54b.js",
     "static/js/787.fb9a35f0.chunk.js": "/CryptStore/static/js/787.fb9a35f0.chunk.js",
-    "static/media/logo.svg": "/CryptStore/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/comics.png": "/CryptStore/static/media/comics.2aa6aafe5a5192492523.png",
+    "static/media/oxford.png": "/CryptStore/static/media/oxford.265b844b5b7ed5e819e2.png",
+    "static/media/spiderman4.png": "/CryptStore/static/media/spiderman4.2e942bc53daa64ea1ee8.png",
+    "static/media/spiderman2.png": "/CryptStore/static/media/spiderman2.87508e717766eeb87028.png",
+    "static/media/spiderman1.png": "/CryptStore/static/media/spiderman1.12104ee3c72106c58865.png",
+    "static/media/spiderman3.png": "/CryptStore/static/media/spiderman3.9cb24ef79152b0c98597.png",
+    "static/media/MobyDick.png": "/CryptStore/static/media/MobyDick.36b646b87991abf275c3.png",
+    "static/media/ArtemisFowl.png": "/CryptStore/static/media/ArtemisFowl.bdc51b8296772abbd511.png",
+    "static/media/bitcoin.png": "/CryptStore/static/media/bitcoin.6858eb2de088fce3c8b6.png",
+    "static/media/uk.png": "/CryptStore/static/media/uk.4a60893a0d81bc160c6b.png",
+    "static/media/fantasy.png": "/CryptStore/static/media/fantasy.13bc7500cf961a398580.png",
+    "static/media/dictionaries.png": "/CryptStore/static/media/dictionaries.9ac7fa10aa604b096784.png",
+    "static/media/horror.png": "/CryptStore/static/media/horror.3ce00dd69115f7c39acf.png",
+    "static/media/adventure.png": "/CryptStore/static/media/adventure.5045a458a9f574b96c1d.png",
     "index.html": "/CryptStore/index.html",
-    "main.073c9b0a.css.map": "/CryptStore/static/css/main.073c9b0a.css.map",
-    "main.c70e88b8.js.map": "/CryptStore/static/js/main.c70e88b8.js.map",
+    "main.15611575.css.map": "/CryptStore/static/css/main.15611575.css.map",
+    "main.b172f54b.js.map": "/CryptStore/static/js/main.b172f54b.js.map",
     "787.fb9a35f0.chunk.js.map": "/CryptStore/static/js/787.fb9a35f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c70e88b8.js"
+    "static/css/main.15611575.css",
+    "static/js/main.b172f54b.js"
   ]
 }
