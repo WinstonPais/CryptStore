@@ -22,11 +22,6 @@ return(
   <>
   <div className="container">
     <Header/>
-    <Carousel autoplay className="carousel">
-    {carousel.map((e) => {
-        return <img src={e} className="carousel-img" alt="carousel"></img>;
-    })}
-    </Carousel>
     <div className="cards">  
       <NewCard Myimg={Comics} name="Comics Category" linkTo="/categories"/>
       <NewCard Myimg={Dictionaries} name="Dictionaries" linkTo="/categories"/>
