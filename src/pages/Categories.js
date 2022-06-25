@@ -6,10 +6,14 @@ import { useState } from "react";
 import Rating from "../components/Rating";
 import PriceRanges from "../components/PriceRanges";
 import Results from "../components/Results";
+import Cd from '../card/card.js';
+import {books} from "../books.js";
+import './Categories.css'
 
 const { Sider, Content } = Layout;
 
 const Categories = () => {
+  const bookCategory = books["Comics"];
   const { state: category } = useLocation();
   const [rating, setRating] = useState(1);
   const [priceMin, setPriceMin] = useState(0);
@@ -25,21 +29,13 @@ const Categories = () => {
         </div>
 
         <Layout>
-          <Sider width="340px" theme="light" style={{ padding: "25px" }}>
-            <div style={{ display: "flex", flexDirection: "column" }}>
-            <Rating rating={rating} setRating={setRating} />
-            <PriceRanges priceMin={priceMin} setPriceMin={setPriceMin} priceMax={priceMax} setPriceMax={setPriceMax}/>
-            <Button className="login">Apply Filters</Button>
-            </div>
-          </Sider>
-
-          <Content
-            theme="light"
-            style={{ padding: "35px", backgroundColor: "white" }}
-          >
-            <h1 style={{fontSize:"30px"}}>RESULTS</h1>
-            <Results category={category} rating={rating} priceMin={priceMin} priceMax={priceMax}/>
-          </Content>
+          <div className="layout">
+            {bookCategory.map((e,i) => {
+              return (
+                    <Cd Myimg={e.image} name={e.name} linkTo="/product" state={e} />
+              );
+            })}
+          </div>
         </Layout>
 
         

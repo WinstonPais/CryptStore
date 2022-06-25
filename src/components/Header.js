@@ -2,10 +2,9 @@ import { PageHeader, Button, Input, Space, Badge } from 'antd';
 import { useMoralis } from "react-moralis";
 import { Link } from 'react-router-dom';
 import './Header.css'
-import USA from "../images/usa.png";
 import Uk from "../images/uk.png"
 import bitcoin from "../images/bitcoin.png";
-import {ShoppingCartOutlined} from "@ant-design/icons";
+import {ShoppingCartOutlined, MenuOutlined} from "@ant-design/icons";
 
 const {Search } = Input;
 const categories = ["Comics", "Dictionaries", "Novels", "Fantasy", "Horror", "Adventure"];
@@ -30,7 +29,7 @@ const Header = () => {
          key="1" 
          type="primary" 
          onClick={() => authenticate()}>
-          {account ? <span>{account.slice(0,5)}...</span> : <span>login</span>}
+          {account ? <span>{account.slice(0,5)}...</span> : <span>Login</span>}
           </Button>
           <Space size={"large"}>
               <Badge count={0} showZero>
@@ -49,6 +48,18 @@ const Header = () => {
       </PageHeader>
       <div className="site-page-subheader-ghost-wrapper">
       <Space size={"middle"}>
+      <Space size={"small"} style={{fontWeight:"bold"}}>
+          <MenuOutlined />
+          Categories
+        </Space>
+        {categories.map((e) =>{
+          return(
+            <Link to="/categories" state={e} className="categories">
+              {e}
+            </Link>
+          )
+
+        })}
       </Space>
     </div>
     </div>
