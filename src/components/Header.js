@@ -18,8 +18,8 @@ const Header = () => {
         ghost={false}
         extra={[
           <>
-          <img src={Amazon} className="logo"></img>
-          <img src={BookStore} className="logo"></img>
+          <img src={Amazon} className="logo" alt=""></img>
+          <img src={BookStore} className="logo" alt=""></img>
           <Search
               placeholder="Find A Product"
               enterButton
