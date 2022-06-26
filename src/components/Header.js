@@ -17,7 +17,7 @@ const Header = () => {
         ghost={false}
         extra={[
           <>
-          <h1 class="title">CrypStore</h1>
+          <Link to="/" class="title" >CrypStore</Link>
           <img src={bitcoin} className="logo"></img>
           <Search
               placeholder="Find A Product"
