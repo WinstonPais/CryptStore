@@ -21,7 +21,7 @@ const Product = () => {
         <p style={{ textAlign: "center" }}>Hover over image to zoom</p>
       </div>
       <div className="product-details">
-        <h1>{book.name}</h1>
+        <h1 className="product-color">{book.name}</h1>
         <Rate value={book.rating} disabled={true}></Rate>
         <hr></hr>
         <p>
@@ -32,12 +32,12 @@ const Product = () => {
           No Import Fees & Free Shipping Included
         </p>
         <hr></hr>
-        <h3>About This Item</h3>
+        <h3 className="product-color">About This Item</h3>
         <p>
           {book.about}
         </p>
       </div>
-      <div className="purchase-details">
+      <div className="purchase-details  product-color-bg">
       <Purchase book={book}/>
       </div>
     </div>
