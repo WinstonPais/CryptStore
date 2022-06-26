@@ -88,9 +88,9 @@ li {
 .card_container .card:after {
   content: "CRYPT";
   position: absolute;
-  top: 30%;
-  left: -20%;
-  font-size: 12em;
+  top: 60%;
+  left: 0%;
+  font-size: 6em;
   font-weight: 800;
   font-style: italic;
   color: rgba(255, 255, 25, 0.199);
