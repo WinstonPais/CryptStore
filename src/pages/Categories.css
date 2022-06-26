@@ -1,10 +1,13 @@
 .layout{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
     color: transparent;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
+.cardContainer{
+    margin-bottom: 5vh;
+}

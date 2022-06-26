@@ -2,6 +2,10 @@ import Spidey1 from "./images/spiderman1.png";
 import Spidey2 from "./images/spiderman2.png";
 import Spidey3 from "./images/spiderman3.png";
 import Spidey4 from "./images/spiderman4.png";
+import justiceLeague from "./images/justice.png";
+import batman from "./images/batman.png";
+import doomsday from "./images/doomsday.png";
+import hulk from "./images/hulk.png"
 import Dictionary from "./images/oxford.png";
 
 export const books = {
@@ -38,6 +42,40 @@ export const books = {
       about:
         "When Kraven returns, Spider-Man becomes the hunted! Sergei Kravinoff and his minions have been kidnapping animal-themed superhumans for months, and they need one more to complete the collection: the Spider. But what does Kraven want with all of them?! In Central Park, the prey is let loose, and the hunt begins - but Kraven isn't the one in pursuit. Who has Spidey in their crosshairs?",
     },
+    {
+      name: "Justice League of America By Bryan Hitch",
+      price: 7.30,
+      rating: 4,
+      image: justiceLeague,
+      about:
+        "When Kraven returns, Spider-Man becomes the hunted! Sergei Kravinoff and his minions have been kidnapping animal-themed superhumans for months, and they need one more to complete the collection: the Spider. But what does Kraven want with all of them?! In Central Park, the prey is let loose, and the hunt begins - but Kraven isn't the one in pursuit. Who has Spidey in their crosshairs?",
+    },
+    {
+      name: "Batman: Curse of the White Knight",
+      price: 4.99,
+      rating: 5,
+      image: batman,
+      about:
+        "In this DC Black Label series, The Joker returns to his sadistic ways and recruits Azrael to help him unearth a secret about the Wayne family that runs deep into Gotham's dark history.",
+    },
+
+    {
+      name: "Doomsday Clock By Alan Moore",
+      price: 6.30,
+      rating: 3,
+      image: doomsday,
+      about:
+        " Doomsday Clock(Opens in a new window), a 12-issue Watchmen sequel from writer Geoff Johns and artist Gary Frank, does the unthinkable: continuing Watchmen's apocalyptic paranoia, while pulling that series' characters into the mainline DC Universe just as a super-powered world war is set to erupt.",
+    },
+    {
+      name: "Immortal Hulk By Al Ewing ",
+      price: 7.80,
+      rating: 5,
+      image: hulk,
+      about:
+        " a monster who emerges at night and creeps in the shadows to exact vengeance upon humanity's worst members. It's a surprisingly macabre run, one that recalls The Twilight Zone's sci-fi morality tales and EC Comics' horror line",
+    },
+    
   ],
   Dictionaries: [
     {

@@ -26,7 +26,9 @@ const Categories = () => {
         <div className="layout">
           {bookCategory.map((e,i) => {
             return (
-                  <Cd Myimg={e.image} name={e.name} linkTo="/product" state={e} />
+              <div className="cardContainer">
+                   <Cd Myimg={e.image} name={e.name} linkTo="/product" state={e} />
+              </div>
             );
           })}
         </div>
