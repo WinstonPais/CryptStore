@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CryptStore/static/css/main.4d32060a.css",
-    "main.js": "/CryptStore/static/js/main.0a055995.js",
+    "main.js": "/CryptStore/static/js/main.791becc7.js",
     "static/js/787.fb9a35f0.chunk.js": "/CryptStore/static/js/787.fb9a35f0.chunk.js",
     "static/media/justice.png": "/CryptStore/static/media/justice.ffa8e67fafd0127e8bd8.png",
     "static/media/fiction.png": "/CryptStore/static/media/fiction.dec40f368f2b99801b66.png",
@@ -26,11 +26,11 @@
     "static/media/fitness.jpg": "/CryptStore/static/media/fitness.1e96f77c7dc5aa328912.jpg",
     "index.html": "/CryptStore/index.html",
     "main.4d32060a.css.map": "/CryptStore/static/css/main.4d32060a.css.map",
-    "main.0a055995.js.map": "/CryptStore/static/js/main.0a055995.js.map",
+    "main.791becc7.js.map": "/CryptStore/static/js/main.791becc7.js.map",
     "787.fb9a35f0.chunk.js.map": "/CryptStore/static/js/787.fb9a35f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d32060a.css",
-    "static/js/main.0a055995.js"
+    "static/js/main.791becc7.js"
   ]
 }
