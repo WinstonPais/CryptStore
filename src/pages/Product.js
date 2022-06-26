@@ -4,6 +4,7 @@ import "./Product.css";
 import Header from '../components/Header';
 import { useLocation } from 'react-router';
 import Purchase from '../components/Purchase';
+import Footer from "../components/Footer";
 
 
 const Product = () => {
@@ -42,6 +43,7 @@ const Product = () => {
       </div>
     </div>
   </div>
+  <Footer />
   </>
 )
 }

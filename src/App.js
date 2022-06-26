@@ -12,7 +12,6 @@ const App = () => (
     <Route path="/CryptStore" element={<Home />} />
     <Route path="product" element={<Product />} />
     <Route path="categories" element={<Categories />} />
-    <Route path="/CryptStore" element={<Footer />} />
   </Routes>
 );
 

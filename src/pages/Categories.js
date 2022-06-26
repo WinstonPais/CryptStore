@@ -8,7 +8,8 @@ import PriceRanges from "../components/PriceRanges";
 import Results from "../components/Results";
 import Cd from '../card/card.js';
 import {books} from "../books.js";
-import './Categories.css'
+import './Categories.css';
+import Footer from "../components/Footer";
 
 const { Sider, Content } = Layout;
 
@@ -33,6 +34,7 @@ const Categories = () => {
           })}
         </div>
       </div>
+      <Footer />
     </>
   );
 };
