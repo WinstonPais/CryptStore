@@ -56,7 +56,8 @@ function Purchase({book}) {
         <Option value={4}>4</Option>
         <Option value={5}>5</Option>
       </Select>
-      {chainId === "0x13881" &&
+      {
+      // chainId === "0x13881" &&
       <Button
       className="login"
       style={{ width: "100%", marginTop: "50px" }}
