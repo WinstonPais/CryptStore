@@ -12,6 +12,7 @@ on:
 env:
   MORALIS_SERVER_URL: ${{ secrets.MORALIS_SERVER_URL }}
   MORALIS_APP_ID: ${{ secrets.MORALIS_APP_ID }}
+  CI: false
 
 jobs:
   build:
@@ -43,8 +44,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          CI: ""
 
       - name: Deploy
         if: ${{ github.ref == 'refs/heads/master' }}
@@ -56,4 +55,3 @@ jobs:
         env:
           github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
           repository: ${{ github.repository }}
-          CI: ""
