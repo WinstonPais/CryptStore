@@ -11,7 +11,8 @@ const card = (props) => {
           </div>
           <div className={classes.contentBx}>
               <h2>{props.name}</h2>
-              <Link to={props.linkTo} state="Comics" className="categories">
+              {/* <Link to={props.linkTo} state="Comics" className="categories"> */}
+              <Link to={props.linkTo} state={props.state} className="categories">
               View Product
               </Link>
           </div>

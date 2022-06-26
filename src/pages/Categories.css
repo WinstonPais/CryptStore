@@ -4,5 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
+    color: transparent;
+    margin-top: 10vh;
 }
 

@@ -23,22 +23,13 @@ const Categories = () => {
     <>
       <div className="container">
         <Header />
-        <div className="results-header">
-          <span>Showing Poducts for </span>
-          <span className="category">"{category}"</span>
+        <div className="layout">
+          {bookCategory.map((e,i) => {
+            return (
+                  <Cd Myimg={e.image} name={e.name} linkTo="/product" state={e} />
+            );
+          })}
         </div>
-
-        <Layout>
-          <div className="layout">
-            {bookCategory.map((e,i) => {
-              return (
-                    <Cd Myimg={e.image} name={e.name} linkTo="/product" state={e} />
-              );
-            })}
-          </div>
-        </Layout>
-
-        
       </div>
     </>
   );
