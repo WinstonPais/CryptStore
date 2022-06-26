@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 import "./Home.css";
 import { Carousel, Card } from 'antd';
 import NewCard from './../card/card';
@@ -26,7 +28,7 @@ const catCard = [fitness, Fantasy,Horror,Fiction];
 const Home = () => {
 
 return(
-  <>
+  
   <div className="container">
     <Header/>
     <div className="cards">  
@@ -41,8 +43,10 @@ return(
       <NewCard Myimg={Sci_fi} name="Science Fiction" linkTo="/categories"/>
       <NewCard Myimg={History} name="History" linkTo="/categories"/>
     </div>
+    <Footer />
   </div>
-  </>
+  
+
 )
 }
 

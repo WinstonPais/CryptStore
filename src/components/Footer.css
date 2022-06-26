@@ -1,0 +1,22 @@
+.footer{
+    margin-top: 30px;
+    /* background-image: url("bg.jpg"); */
+    background-color: black;
+    padding: 1rem;
+    width: 100%;
+}
+
+.text2  {
+    margin-top: 25px;
+    /* float: center; */
+    color: white;
+    /* background: inherit; */
+    text-align: center;
+    font-size: small;
+}
+
+.text1{
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+}
