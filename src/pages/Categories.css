@@ -1,9 +1,13 @@
 .layout{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    margin-top:20px;
+    color: transparent;
+    margin-top: 5vh;
 }
 
+.cardContainer{
+    margin-bottom: 5vh;
+}

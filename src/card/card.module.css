@@ -57,6 +57,7 @@ li {
   height: 80px;
 }
 
+
 .card_container .card {
   position: relative;
   width: 320px;
@@ -64,6 +65,7 @@ li {
   background: #232323;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 0 0 10px black;
 }
 
 .card_container .card:before {

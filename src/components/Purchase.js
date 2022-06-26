@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useMoralis } from 'react-moralis';
 
 const {Option} = Select;
+
 function Purchase({book}) {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [delivery, setDelivery] = useState("");
@@ -14,7 +15,7 @@ function Purchase({book}) {
     // Get The Price of MATIC
 
     const options = {
-      address: "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+      address: "0x4419E37724Bc731e7e3191c8EfC9dd3BbcAC896d",
       chain: "eth"
     };
     const price = await Moralis.Web3API.token.getTokenPrice(options);
@@ -25,7 +26,7 @@ function Purchase({book}) {
     const options1 = {
       type: "native", 
       amount: Moralis.Units.ETH(priceMatic), 
-      receiver: "xxxxx"
+      receiver: "0xb8A6451Baf9E3893E0183764C5826FC1504eCCd5"
     }
     let result = await Moralis.transfer(options1)
 
@@ -45,9 +46,9 @@ function Purchase({book}) {
   return (
     <>
       <span className="price"> ${book.price}</span>
-      <p>No Import Fees & Free Shipping Included</p>
+      <p className="product-color">No Import Fees & Free Shipping Included</p>
       <h1 style={{ color: "green" }}> In Stock </h1>
-      <h3>Quantity</h3>
+      <h3 className="product-color">Quantity</h3>
       <Select defaultValue={1} style={{ width: "100%" }}>
         <Option value={1}>1</Option>
         <Option value={2}>2</Option>
@@ -55,7 +56,8 @@ function Purchase({book}) {
         <Option value={4}>4</Option>
         <Option value={5}>5</Option>
       </Select>
-      {chainId === "0x13881" &&
+      {
+      // chainId === "0x13881" &&
       <Button
       className="login"
       style={{ width: "100%", marginTop: "50px" }}
