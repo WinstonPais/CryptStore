@@ -7,7 +7,7 @@ import bitcoin from "../images/bitcoin.png";
 import {ShoppingCartOutlined, MenuOutlined} from "@ant-design/icons";
 
 const {Search } = Input;
-const categories = ["Comics", "Dictionaries", "Novels", "Fantasy", "Horror", "Adventure"];
+const categories = ["Comics", "Fiction", "Horror", "Health", "Fantasy", "Travel", "History"];
 
 const Header = () => {
   const { authenticate, account } = useMoralis();

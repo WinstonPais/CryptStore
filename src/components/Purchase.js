@@ -15,18 +15,22 @@ function Purchase({book}) {
     // Get The Price of MATIC
 
     const options = {
-      address: "0x4419E37724Bc731e7e3191c8EfC9dd3BbcAC896d",
+      address: "0xb8A6451Baf9E3893E0183764C5826FC1504eCCd5", //1
       chain: "eth"
     };
-    const price = await Moralis.Web3API.token.getTokenPrice(options);
-    const priceMatic = book.price / price.usdPrice;
+    // const price = await Moralis.Web3API.token.getTokenPrice(options);
+    const price = 50;
+    // const priceMatic = book.price / price.usdPrice;
+    // const priceMatic = book.price / price;
+    const priceMatic = 0;
+    console.log(priceMatic);
     
     // Send Matic to book store owenr address
 
     const options1 = {
       type: "native", 
       amount: Moralis.Units.ETH(priceMatic), 
-      receiver: "0xb8A6451Baf9E3893E0183764C5826FC1504eCCd5"
+      receiver: "0x4419E37724Bc731e7e3191c8EfC9dd3BbcAC896d" //2
     }
     let result = await Moralis.transfer(options1)
 
