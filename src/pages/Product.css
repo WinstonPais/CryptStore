@@ -5,6 +5,14 @@
     gap: 40px;
 }
 
+.product-color {
+  color:rgb(228, 228, 228)
+}
+
+.product-color-bg {
+  background-color:rgb(16, 16, 16)
+}
+
 
 .product-img {
     width: 30vw;
